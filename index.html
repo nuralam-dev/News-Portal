@@ -4,11 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News-Portal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <section class="flex items-center justify-center h-15 bg-gray-300">
+        <button
+          class="px-6 py-3 bg-white text-black-600 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
+        >
+          POLITIC
+        </button>
+      </section>
+      <section class="flex items-center justify-center mt-5">
+        <div class="join">
+          <div>
+            <label class="input w-100">
+              <input type="text" placeholder="text here for search......" />
+            </label>
+          </div>
+          <button class="btn btn-neutral join-item">Search</button>
+        </div>
+      </section>
+    </header>
+    <main class="mx-auto mt-5">
+      <section class="w-10/12 mx-auto">
+        <div class="flex items-center justify-center p-5 shadow-sm">
+          <div>
+            <img class="w-8/12" src="biden.webp" alt="" />
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+              eveniet nemo dolor, commodi aspernatur ipsa ullam explicabo porro
+              recusandae suscipit.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>
